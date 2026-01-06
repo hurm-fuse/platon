@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,8 +17,9 @@
     <meta name="google-site-verification" content="shQyQlCkETFhygjZ-Qx2uEJcpBnkClD9BLxYXk6Emv0" />
 
     <!-- ✅ SEO META -->
-    <meta name="description" content="Platon Phillon is an alpha male blog focused on mindset, fitness, discipline, confidence, and self-improvement for men who want power and respect. Also searched as Platon Philion and Platon Philon.">
-    
+    <meta name="description"
+        content="Platon Phillon is an alpha male blog focused on mindset, fitness, discipline, confidence, and self-improvement for men who want power and respect. Also searched as Platon Philion and Platon Philon.">
+
     <meta name="keywords" content="
     platon phillon,
     platon philion,
@@ -42,7 +44,8 @@
 
     <!-- ✅ OPEN GRAPH -->
     <meta property="og:title" content="Platon Phillon | Alpha Male Mindset & Discipline">
-    <meta property="og:description" content="Mindset, fitness, confidence & discipline for men who refuse to live average lives.">
+    <meta property="og:description"
+        content="Mindset, fitness, confidence & discipline for men who refuse to live average lives.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://platonphillon.vercel.app">
     <meta property="og:image" content="https://platonphillon.vercel.app/favicon.ico">
@@ -89,6 +92,7 @@
             line-height: 1.7;
             text-align: center;
         }
+
         h1 {
             color: #fff;
             font-size: 3rem;
@@ -96,13 +100,66 @@
             padding-bottom: 10px;
             text-transform: uppercase;
         }
+
         p {
             color: #ddd;
             font-size: 1rem;
         }
+
         img {
             width: 100%;
             border-radius: 4px;
+        }
+
+        .card {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 30px;
+            gap: 20px;
+        }
+
+        .cards {
+            background: #4B0000;
+            /* deep red background */
+            border: 2px solid #8B0000;
+            /* darker red border */
+            border-radius: 12px;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+
+        .cards h2 {
+            color: #FFD700;
+            /* gold for power & attention */
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            text-transform: capitalize;
+        }
+
+        .cards a {
+            display: inline-block;
+            text-decoration: none;
+            background: #FFD700;
+            color: #4B0000;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 8px;
+            transition: background 0.3s ease, color 0.3s ease;
+        }
+
+        .cards a:hover {
+            background: #fff;
+            color: #8B0000;
+        }
+
+        .cards:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.7);
         }
     </style>
 </head>
@@ -135,4 +192,5 @@
     </div>
 
 </body>
+
 </html>
