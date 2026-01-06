@@ -1,196 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- ✅ TITLE (WITH WRONG SPELLING CAPTURE) -->
-    <title>Platon Phillon | Alpha Male Mindset, Fitness & Discipline</title>
-
-    <!-- ✅ FAVICON (GOOGLE FIX) -->
-    <link rel="icon" href="/favicon.ico" sizes="any">
-    <link rel="icon" href="/favicon.png" type="image/png">
-    <link rel="apple-touch-icon" href="/favicon.ico">
-
-    <!-- ✅ GOOGLE VERIFICATION -->
-    <meta name="google-site-verification" content="shQyQlCkETFhygjZ-Qx2uEJcpBnkClD9BLxYXk6Emv0" />
-
-    <!-- ✅ SEO META -->
-    <meta name="description"
-        content="Platon Phillon is an alpha male blog focused on mindset, fitness, discipline, confidence, and self-improvement for men who want power and respect. Also searched as Platon Philion and Platon Philon.">
-
-    <meta name="keywords" content="
-    platon phillon,
-    platon philion,
-    platon philon,
-    platon fillon,
-    platon phillon blog,
-    platon philion alpha male,
-    alpha male mindset,
-    masculine mindset,
-    fitness for men,
-    discipline for men,
-    self improvement for men
-    ">
-
-    <meta name="author" content="Platon Phillon">
-    <meta name="robots" content="index, follow, max-image-preview:large">
-
-    <!-- ✅ BRAND OVERRIDE (REMOVE VERCEL NAME) -->
-    <meta name="application-name" content="Platon Phillon">
-    <meta name="apple-mobile-web-app-title" content="Platon Phillon">
-    <meta name="theme-color" content="#8B0000">
-
-    <!-- ✅ OPEN GRAPH -->
-    <meta property="og:title" content="Platon Phillon | Alpha Male Mindset & Discipline">
-    <meta property="og:description"
-        content="Mindset, fitness, confidence & discipline for men who refuse to live average lives.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://platonphillon.vercel.app">
-    <meta property="og:image" content="https://platonphillon.vercel.app/favicon.ico">
-    <meta property="og:site_name" content="Platon Phillon">
-
-    <!-- ✅ TWITTER -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Platon Phillon | Alpha Male Mindset">
-    <meta name="twitter:description" content="Become disciplined, confident, and mentally unstoppable.">
-    <meta name="twitter:image" content="https://platonphillon.vercel.app/favicon.ico">
-
-    <!-- ✅ STRUCTURED DATA (VERY IMPORTANT) -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Platon Phillon",
-      "alternateName": [
-        "Platon Philion",
-        "Platon Philon",
-        "Platon Fillon"
-      ],
-      "url": "https://platonphillon.vercel.app",
-      "publisher": {
-        "@type": "Organization",
-        "name": "Platon Phillon",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://platonphillon.vercel.app/favicon.ico"
-        }
-      }
-    }
-    </script>
-
+    <title>Platon Phillon | Dark Web Horror Tales</title>
     <style>
-        /* ===== BODY ===== */
+        /* Dark Theme */
         body {
-            font-family: 'Gill Sans', Calibri, sans-serif;
-            background: darkred;
-            color: #eee;
-            max-width: 800px;
-            margin: 50px auto;
+            background-color: #0e0e0e;
+            color: #e0e0e0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1a1a1a;
             padding: 20px;
-            line-height: 1.7;
             text-align: center;
+            border-bottom: 1px solid #333;
         }
 
-        /* ===== HEADINGS ===== */
-        h1 {
-            color: #fff;
-            font-size: 2.5rem;
-            border-bottom: 3px solid red;
-            padding-bottom: 10px;
-            text-transform: uppercase;
+        header h1 {
+            color: #ff3366;
+            margin: 0;
+            font-size: 2.2rem;
         }
 
-        .cards h2 {
-            color: #8B0000;
-            /* gold */
-            font-size: 1.2rem;
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            margin-bottom: 50px;
+            border-left: 4px solid #ff3366;
+            padding-left: 15px;
+        }
+
+        section h2 {
+            color: #ff3366;
+            font-size: 1.6rem;
             margin-bottom: 10px;
-            text-transform: capitalize;
         }
 
-        /* ===== PARAGRAPH ===== */
-        p {
-            color: #ddd;
-            font-size: 1rem;
+        section p {
+            margin: 8px 0;
         }
 
-        /* ===== IMAGE ===== */
-        img {
-            width: 100%;
-            border-radius: 4px;
-            margin-bottom: 20px;
+        .emoji {
+            font-size: 1.2rem;
         }
 
-        /* ===== CARDS CONTAINER ===== */
-        .card {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 70px;
+        footer {
+            text-align: center;
+            padding: 20px;
+            border-top: 1px solid #333;
+            color: #777;
         }
 
-        /* ===== SINGLE CARD ===== */
-        .cards {
-            background-color: #fff;
-            border: 2px solid #8B0000;
-            border-radius: 8px;
-            padding: 15px;
-            width: 100%;
-            max-width: 250px;
-            box-sizing: border-box;
-        }
-
-        /* ===== LINK BUTTON ===== */
-        .cards a {
-            display: inline-block;
+        a {
+            color: #ff3366;
             text-decoration: none;
-            background: #8B0000;
-            color: #FFF;
-            font-weight: bold;
-            padding: 8px 15px;
-            border-radius: 6px;
-            margin-top: 10px;
         }
 
-        /* ===== RESPONSIVE ===== */
-        @media (max-width: 600px) {
-            .cards {
-                width: 90%;
-            }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Optional: Smooth scroll to top when page loads */
+        html {
+            scroll-behavior: smooth;
         }
     </style>
 </head>
-
 <body>
+    <header>
+        <h1>Platon Phillon | Dark Web Horror Tales</h1>
+    </header>
 
-    <img src="favicon.ico" alt="Platon Phillon Alpha Male Logo">
+    <main>
+        <section>
+            <h2>1) The Profile That Didn’t Blink 📱🌑</h2>
+            <p>I was bored, scrolling my own name—Hurm Fuse, Delhi—late at night. That’s when I saw it.</p>
+            <p>An Instagram profile. Same name. Same city. Same face—but older. Tired. Empty bio. No followers. No following.</p>
+            <p>Last photo posted two hours ago. It was my room. Not a mirror. Not a selfie. The angle… from the corner near the door. The one spot I never stand in.</p>
+            <p>Next day, I got a Tor link in my email. From a forum I never joined. They said: <em>“Look closer. You missed something.”</em></p>
+            <p>I opened it. A live webcam feed. My room. The chair I always leave empty… someone was sitting in it.</p>
+        </section>
 
-    <h1>Platon Phillon</h1>
+        <section>
+            <h2>2) Typing… and Waiting 💬🕳️</h2>
+            <p>I was chatting with Rhea, a friend from Delhi University, on WhatsApp late at night. Random jokes.</p>
+            <p>Then she stopped replying. Typing bubble stayed. Minutes passed.</p>
+            <p>I sent a question mark. A message appeared instantly: <em>“Stop looking at it.”</em> Sent from my account.</p>
+            <p>Next morning, I found a dark web page with my username as the URL. Nothing else but a blinking cursor.</p>
+        </section>
 
-    <p>
-        Alpha mindset, fitness, and power 🦁. Learn how to build unshakable confidence,
-        master discipline, and dominate every area of your life. This is the official
-        Platon Phillon blog — often searched as Platon Philion or Platon Philon.
-    </p>
+        <section>
+            <h2>3) The Call That Found Me 📞🌒</h2>
+            <p>I woke up to a missed call from an unknown number. Duration: 0 seconds.</p>
+            <p>Later, Aman, my friend from GK-1, Dwarka, texted: <em>“Why did you call me at 4:12 AM?”</em></p>
+            <p>I hadn’t. But his phone showed my name. Call duration: 17 seconds.</p>
+            <p>That same night, a dark web forum had a post: <em>“He answered before he knew he called.”</em> No username, no comments. Just the sentence and a timestamp: 4:12 AM.</p>
+        </section>
 
-    <div class="card">
-        <div class="cards">
-            <h2>why women lose respect for nice guys</h2>
-            <a href="why-women-lose-respect-for-nice-guys.html">Read</a>
-        </div>
-    </div>
+        <section>
+            <h2>4) The Extra Seconds 🎥🩸</h2>
+            <p>I record myself sometimes. Just talking. Practicing.</p>
+            <p>One night I stopped recording at 3:02. Closed the app. Went to sleep.</p>
+            <p>Weeks later, someone commented on the private video. Quoted something I never said.</p>
+            <p>I opened the file. Timeline ends at 3:02. Waveform keeps moving until 3:17. At 2:41, I remembered standing up. The rest… just breathing.</p>
+            <p>Dark web archive logs show my video uploaded automatically—to a hidden forum called /livewatch. I never uploaded it.</p>
+        </section>
 
-    <!-- ✅ INVISIBLE WRONG SPELLING SEO (WHITE HAT) -->
-    <div style="display:none">
-        Platon Philion alpha male blog.
-        Platon Philon mindset.
-        Platon Fillon fitness.
-        Platon Phillon discipline and confidence.
-    </div>
+        <section>
+            <h2>5) Something Used My Key 🚪🌑</h2>
+            <p>Late night, coming back from GK-1, Dwarka. I unlocked the door. Went to bed.</p>
+            <p>Next morning, living room off. Chair facing wall. I don’t own that chair.</p>
+            <p>Family laughed. But floor beneath it was warm.</p>
+            <p>A Tor forum later showed a post: <em>“Chair moved. Subject asleep. Watching still.”</em> Username: HurmFuse.</p>
+        </section>
 
+        <section>
+            <h2>6) Online Without Me 🟢🕸️</h2>
+            <p>Phone says online. I’m holding it. Turn off Wi-Fi, still online. Turn off data, still online. I power it down. Laptop buzzes. Draft message open in WhatsApp Web, chat untouched for months:</p>
+            <p><em>“Easier to find like this. Don’t log out.”</em></p>
+            <p>Cursor blinks once. Then stops. Dark web logs: my IP appears active on a forum I never accessed. Timestamp matches exactly when my phone went offline.</p>
+        </section>
+
+        <section>
+            <h2>7) Seen 👁️🖤</h2>
+            <p>Opened an old Instagram chat. Neha Sharma, passed last year. Typed “Hey.” Message sent. Second later: Seen. No reply. Chat closed.</p>
+            <p>Searched for her. Gone. Dark web page appeared in my history. URL: <em>tor://nehash/seen</em>. Just my last message. Just my name.</p>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2026 Platon Phillon | <a href="#">Visit more blogs</a>
+    </footer>
 </body>
-
 </html>
